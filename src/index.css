@@ -1,0 +1,38 @@
+/* Style for the entire table */
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+/* Style for table headers (th) */
+.contact-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #ddd; /* Add a bottom border */
+}
+
+/* Style for table rows (tr) */
+.contact-table tr {
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.contact-table tr:hover {
+  background-color: #f9f9f9; /* Light gray background on hover */
+}
+
+/* Style for table cells (td) */
+.contact-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for red tags (e.g., "HOT" or "APP ZONE") */
+.red-tag {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase; /* Convert text to uppercase */
+}
