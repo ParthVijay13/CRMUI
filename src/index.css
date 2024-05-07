@@ -1,4 +1,21 @@
 /* Style for the entire table */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+
+.fsd {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .contact-table {
   width: 100%;
   border-collapse: collapse;
@@ -35,4 +52,34 @@
   color: red;
   font-weight: bold;
   text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sort-buttons button {
+  background-color: #f1f1f1;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+  background-color: #ddd;
+}
+
+.sort-buttons button.active {
+  background-color: #4CAF50;
+  color: white;
 }
