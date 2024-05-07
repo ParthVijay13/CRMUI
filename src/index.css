@@ -83,3 +83,33 @@
   background-color: #4CAF50;
   color: white;
 }
+
+.sort-options {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sort-options button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-options button:hover {
+  background-color: #3e8e41;
+}
+
+.sort-options button:active {
+  background-color: #2e6c3f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
